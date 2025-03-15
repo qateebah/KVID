@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تحويل النص إلى فيديو كرتوني</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- إضافة مكتبة p5.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <!-- إضافة مكتبة Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>تحويل النص إلى فيديو كرتوني</h1>
+    <textarea id="textInput" placeholder="اكتب النص هنا..."></textarea>
+    <button id="generateBtn">إنشاء الفيديو</button>
+    <canvas id="canvas"></canvas>
+    <video id="videoOutput" controls></video>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
